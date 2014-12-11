@@ -1,0 +1,5 @@
+services:
+    dmzx.loadingindicator.listener:
+        class: dmzx\loadingindicator\event\listener
+        tags:
+            - { name: event.listener }

@@ -1,0 +1,32 @@
+{
+    "name": "dmzx/loadingindicator",
+    "type": "phpbb-extension",
+    "description": "Will add the loading indicator when pages are loaded",
+    "homepage": "http://www.dmzx-web.net",
+    "version": "1.0.0",
+    "time": "2014-11-22",
+	"keywords": ["phpbb", "extension", "Loading indicator"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "dmzx",
+            "homepage": "http://www.dmzx-web.net",
+			"email": "info@dmzx-web.net",
+            "role": "Extension Developer"
+        },
+		{
+			"name": "Thorsten Hartmann",
+			"homepage": "www.th23.net",
+			"role": "Author"
+		}
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Loading indicator",
+        "soft-require": {
+           "phpbb/phpbb": "3.1.*"
+        }
+    }
+}
