@@ -34,5 +34,5 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 $lang = array_merge($lang, array(
-   'LOADINGINDICATOR'   => 'Laadin...',
+	'LOADINGINDICATOR'	=> 'Laadin...',
 ));
