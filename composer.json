@@ -28,5 +28,10 @@
 		"soft-require": {
 			"phpbb/phpbb": "3.1.*"
 		}
+	},
+	"version-check": {
+		"host": "www.dmzx-web.net",
+		"directory": "/versions",
+		"filename": "loadingindicator_version.json"
 	}
 }
