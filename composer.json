@@ -3,9 +3,13 @@
 	"type": "phpbb-extension",
 	"description": "Will add the loading indicator when pages are loaded",
 	"homepage": "http://www.dmzx-web.net",
-	"version": "1.0.0",
-	"time": "2014-11-22",
-	"keywords": ["phpbb", "extension", "Loading indicator"],
+	"version": "1.0.1",
+	"time": "2017-01-23",
+	"keywords": [
+		"phpbb",
+		"extension",
+		"Loading indicator"
+	],
 	"license": "GPL-2.0",
 	"authors": [
 		{
@@ -21,17 +25,18 @@
 		}
 	],
 	"require": {
-		"php": ">=5.3.3"
+		"php": ">=5.3.3",
+		"phpbb/phpbb": ">=3.1.0,<3.3"
 	},
 	"extra": {
 		"display-name": "Loading indicator",
 		"soft-require": {
-			"phpbb/phpbb": "3.1.*"
+			"phpbb/phpbb": ">=3.1.0,<3.3"
+		},
+		"version-check": {
+			"host": "www.dmzx-web.net",
+			"directory": "/versions",
+			"filename": "loadingindicator_version.json"
 		}
-	},
-	"version-check": {
-		"host": "www.dmzx-web.net",
-		"directory": "/versions",
-		"filename": "loadingindicator_version.json"
 	}
 }
